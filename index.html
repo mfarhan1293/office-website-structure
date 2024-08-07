@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+	<title>building website</title>
+</head>
+<body>
+
+	<!-- NAV BAR -->
+	<nav class="nav-bar">
+		<h2 class="logo">office <span>building</span></h2>
+		<ul class="nav-link">
+			<li><a href="#">home</a></li>
+			<li><a href="#work">work</a></li>
+			<li><a href="#service">services</a></li>
+			<li><a href="#about">about</a></li>
+			<li><a href="#"  class="active">contact</a></li>
+		</ul>
+		<img src="./images/navbar-button.png" alt="images" class="nav-btn">
+	</nav>
+
+
+	<!-- MAIN SECTION -->
+
+	<main>
+		<div class="main-content">
+			<h1>build your construction</h1>
+			<div class="line"></div>
+			<p>Construction is a multifaceted and dynamic industry that plays a pivotal role in shaping the physical environment we inhabit.</p>
+				<button  class="btn active">Get Start</button>
+				<button class="btn">Read More</button>
+		</div>	
+	</main>
+
+
+
+	<!-- SERVICE SECTION -->
+
+	<section class="service" id="service">
+		<div class="title">
+			<h1>digital services</h1>
+			<p>We Provide Online Service</p>	
+		</div>	
+
+		<div class="row">
+			<div class="box-image">
+				<a target="blank" href="./images/image1.jpeg">
+				<img src="./images/image1.jpeg" alt="images" class="img">
+				</a>
+				<div class="box-content">
+					<h3>Tomorrow Build Today</h3>
+				</div>
+				<h3>Modren Design</h3>
+				<p>Modern design is a broad term that encompasses various styles and trends that have emerged in the 20th and 21st centuries.</p>
+				<button class="img-btn">Learn More</button>	
+			</div>
+			<div class="box-image">
+				<a target="blank" href="./images/image2.jpg">
+					<img src="./images/image2.jpg" alt="images" class="img">
+				</a>
+				<div class="box-content">
+					<h3>Tomorrow Build Today</h3>
+				</div>
+				<h3>High Quality</h3>
+				<p>Here are some ideas for producing content that highlights high-quality buildings. Feature in-depth profiles of architecturally buildings.</p>	
+				<button class="img-btn">Learn More</button>
+			</div>
+			<div class="box-image">
+				<a target="blank" href="./images/image3.jpg">
+					<img src="./images/image3.jpg" alt="images" class="img">
+				</a>
+				 <div class="box-content">
+					<h3>Tomorrow Build Today</h3>
+				</div>
+				<h3>Quick Support</h3>
+				<p>If you're looking to create quick support building content, consider focusing on practical information that addresses common questions.</p>
+				<button class="img-btn">Learn More</button>	
+			</div>
+		</div>	
+	</section>
+
+
+	<!-- ABOUT SECTION -->
+	<section class="about" id="about">
+		<div class="about-content">
+			<h4>recidencial</h4>
+			<h1>we provide outstanding contruction</h1>
+			<div class="line"></div>
+			<p>we have provide complete remodeling & contruction solution for residential and commertial properties in the city. The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+		</div>
+	</section>
+
+
+	<!-- WORK SECTION -->
+	<section class="work" id="work">
+		<div class="row2">
+			<div class="col col-content">
+				<h1>we are <span>the leader</span> in construction industry</h1>
+				<h2>The construction industry is vast and encompasses various aspects, including planning, design, project management, and execution. Here are some topics and content ideas related to the construction industry.</h2>
+				<p>Discuss the latest advancements in construction technology, such as Building Information Modeling (BIM), drones, robotics, and 3D printing. Explore how technology is improving efficiency, safety, and sustainability in construction projects.</p>
+			</div>
+
+			<div class="col col-img">
+				<img src="./images/image7.jpg" alt="images" class="work-img">
+			</div>
+			
+		</div>
+	</section>
+
+
+
+	<!-- FOOTER SECTION -->
+	<footer>
+		<div class="row3">
+			<div class="footer-col">
+				<h2>company name</h2>
+				<p>Are you interested in general information about office companies, specific companies, or something else? The more details you provide, the better I can assist you.</p>
+			</div>
+			<div class="footer-col">
+				<h2>useful links</h2>
+				<ul class="footer-link">
+					<li><a href="#">your account</a></li>
+					<li><a href="#">your Email</a></li>
+					<li><a href="#">about</a></li>
+					<li><a href="#">help</a></li>
+				</ul>
+			</div>
+			<div class="footer-col">
+				<h2>contacts</h2>
+				<div class="social-link">
+					<i class="fa-brands fa-facebook"></i>
+					<i class="fa-brands fa-instagram"></i>
+					<i class="fa-brands fa-twitter"></i>
+					<i class="fa-brands fa-whatsapp"></i>
+					<i class="fa-solid fa-phone"></i>
+				</div>
+			</div>
+			
+		</div>
+	</footer>
+
+
+
+
+	<script>
+		const navbtn = document.querySelector('.nav-btn')
+		const navlink = document.querySelector('.nav-link')
+
+		navbtn.addEventListener('click',()=>{navlink.classList.toggle('mobile-manu')})
+	</script>
+
+
+
+</body>
+</html>
